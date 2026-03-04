@@ -10,8 +10,8 @@ from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandl
 
 
 BASE_DIR = Path(__file__).resolve().parent
-PHOTO_DIR = BASE_DIR / "Photo"
-ONBOARD_PHOTO = PHOTO_DIR / "OnboardMessage.png"
+PHOTO_DIR = BASE_DIR
+ONBOARD_PHOTO = BASE_DIR / "OnboardMessage.png"
 
 PEOPLE = {
     "Максим": "Max",
